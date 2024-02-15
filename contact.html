@@ -41,8 +41,9 @@
         <main class="col-9">
           <h1>Kontakt</h1>
           <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1" class="mt-4"
+            <h2>Forularz kontaktowy</h2>
+            <div class="form-group mt-4">
+              <label for="exampleInputEmail1"
                 >Twój adres E-mail</label
               >
               <input
@@ -77,15 +78,26 @@
                 />
               </div>
             </div>
-            <div class="form-check">
+            <div class="form-check mt-2">
               <input type="checkbox" class="form-check-input" id="dane" />
               <label class="form-check-label" for="dane"
                 >Mogę sprzedać twoje dane na czarnym rynku za ok. dwa
                 złote?</label
               >
             </div>
+            <div class="form-group mt-4">
+  <label for="comment">Komentarz</label>
+  <textarea class="form-control" placeholder="Napisz komentarz" id="comment" style="height: 100px"></textarea>
+
+            </div>
             <button type="submit" class="btn btn-primary mt-4" data-toggle="tooltip" data-placement="right" title="Te dane i tak nigdzie nie pójdą, to jest github pages">Wyślij</button>
-          </form>
+          </form><hr><div class="d-flex flex-column gap-3">
+            <h2>Ale Ty mi też możesz wysłać maila</h2>
+            <a href="mailto:1p22geodecki@gmail.com">&lt;1p22geodecki@gmail.com&gt;</a>
+            <a href="./1p22geodecki.gpg">Klucz publiczny GPG</a>
+            <p>Może za jakieś pół roku przeczytam. Mam tego trochę.</p>
+            </div>
+
         </main>
         <aside class="col-3">
           <nav class="vstack gap-3">
